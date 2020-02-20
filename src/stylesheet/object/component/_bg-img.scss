@@ -1,0 +1,11 @@
+.c-bg-img {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &::after {
+    content: '';
+    display: block;
+    padding-top: percentage(336 / 556);  // 仮
+  }
+}
